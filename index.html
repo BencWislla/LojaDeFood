@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="container-fluid p-3">
+    <div class="row align-items-center">
+      <div class="col-6 col-md-10" id="logo">
+        <img src="img/Logo.png" alt="logo" />
+      </div>
+      <div class="col-6 col-md-2 justify-content-end d-flex">
+        <button id="button">
+          <img src="img/user.png" alt="usuario" id="usuario" />
+          Login
+        </button>
+      </div>
+    </div>
+  </header>
+  <main class="container-fluid">
+    <section class="container p-3" id="section">
+
+      <h1>Are you starving?</h1>
+      <h3>Within a few clicks, find meals that are accessible near you</h3>
+      <div id="bloco" class="row gap-0 column-gap-1">
+        <div class="col-7">
+          <input type="text" value="" placeholder="Enter Your Address" id="text" />
+        </div>
+        <div class="col-4">
+          <button id="botao">Find Food</button>
+        </div>
+      </div>
+    </section>
+    <section class="container">
+      <div class="row justify-content-center row-gap-4 column-gap-4">
+        <div class="card col-12" style="width: 18rem;">
+          <img src="img/Food Photo.png" class="card-img-top" alt="img/Food Photo.png">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-12" style="width: 18rem;">
+          <img src="img/Food Photo.png" class="card-img-top" alt="img/Food Photo.png">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-12" style="width: 18rem;">
+          <img src="img/Food Photo.png" class="card-img-top" alt="img/Food Photo.png">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-12" style="width: 18rem;">
+          <img src="img/Food Photo.png" class="card-img-top" alt="img/Food Photo.png">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
+          </div>
+        </div>
+        <div class="card col-12" style="width: 18rem;">
+          <img src="img/Food Photo.png" class="card-img-top" alt="img/Food Photo.png">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="carousel" class="container-fluid justify-content-center p-5 d-none d-lg-flex">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/Food Photo.png" class="d-block w-60" alt="img/Food Photo.png">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Food Photo.png" class="d-block w-60" alt="img/Food Photo.png">
+          </div>
+          <div class="carousel-item">
+            <img src="img/Food Photo.png" class="d-block w-60" alt="img/Food Photo.png">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
