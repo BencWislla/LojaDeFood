@@ -61,3 +61,15 @@ header{
 #carousel{
   width: 50%;
 }
+
+#icones{
+  width: 100%;
+  height: 20rem;
+}
+#cadsIcones{
+  width: 75%;
+}
+
+#cardsFood{
+  width: 18rem;
+}
